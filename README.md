@@ -74,3 +74,9 @@ conda activate env_virulence
 conda list virulencefinder
 virulencefinder.py -h
 ```
+## Save
+```
+git add README.md
+git commit -m "Complete installation and storage management guide"
+git push origin main
+```
