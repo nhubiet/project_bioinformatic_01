@@ -1,0 +1,14 @@
+#                                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_64_length_10487_cov_40.728571:379-879|+ -            167 1470978at2           -            119   6.7e-27   90.8   5.2   1   1   1.7e-29   3.6e-26   88.4   5.2     7   111    23   153    14   165 0.83 NODE_64_length_10487_cov_40.728571_1 # 379 # 879 # 1 # ID=64_1;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;gc_cont=0.431
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/project_bioinformatic_01/project_s.pne/busco_downloads/lineages/bacteria_odb10/hmms/1470978at2.hmm
+# Target file:     results/busco_results/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout results/busco_results/run_bacteria_odb10/hmmer_output/1470978at2.out --cpu 1 /workspaces/project_bioinformatic_01/project_s.pne/busco_downloads/lineages/bacteria_odb10/hmms/1470978at2.hmm results/busco_results/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/project_bioinformatic_01/project_s.pne
+# Date:            Mon Mar 30 07:39:45 2026
+# [ok]

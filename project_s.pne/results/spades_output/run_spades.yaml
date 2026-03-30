@@ -1,0 +1,145 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Before_start_PCK42OT5C5XDZB42XLTTFV6AJQ5IKVM6
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_H0ZW2SMEPN4HE3L5973ISB3GSLMV15M4
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K21/configs/config.info
+  config_dir: K21
+  del_after: []
+  job_uuid: hpcSPAdes_K21_TTKG3594A1KCQ0DO5I6IX45LI9T93OYK
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/envs/Assembly/bin/{spades_core}
+  short_name: k21
+- STAGE: K33
+  args:
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K33/configs/config.info
+  config_dir: K33
+  del_after: []
+  job_uuid: hpcSPAdes_K33_E2KJSWLBFKSC1NQKTNDUXZAA4N5C0I56
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/envs/Assembly/bin/{spades_core}
+  short_name: k33
+- STAGE: K55
+  args:
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K55/configs/config.info
+  config_dir: K55
+  del_after: []
+  job_uuid: hpcSPAdes_K55_LEFW402R5M1DR3GTM4WB2PHE1729UM91
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/envs/Assembly/bin/{spades_core}
+  short_name: k55
+- STAGE: K77
+  args:
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K77/configs/config.info
+  config_dir: K77
+  del_after: []
+  job_uuid: hpcSPAdes_K77_EW7TQ7F1UGE7LRAF776ZK636UAIB8YOX
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/envs/Assembly/bin/{spades_core}
+  short_name: k77
+- STAGE: K99
+  args:
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K99/configs/config.info
+  config_dir: K99
+  del_after: []
+  job_uuid: hpcSPAdes_K99_6YIYLGZR9S49J2VNJ0N6UGZ6D7AGVB7C
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/envs/Assembly/bin/{spades_core}
+  short_name: k99
+- STAGE: K127
+  args:
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/configs/config.info
+  config_dir: K127
+  del_after: []
+  job_uuid: hpcSPAdes_K127_WGUZ10Z6E7XY771T8VN0HRHYC4M2JGD0
+  mpi_support: true
+  output_files: []
+  path: /opt/conda/envs/Assembly/bin/{spades_core}
+  short_name: k127
+- STAGE: Copy files
+  args:
+  - /opt/conda/envs/Assembly/share/spades/spades_pipeline/scripts/copy_files.py
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/before_rr.fasta
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/before_rr.fasta
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/assembly_graph_after_simplification.gfa
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/assembly_graph_after_simplification.gfa
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/final_contigs.fasta
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/contigs.fasta
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/first_pe_contigs.fasta
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/first_pe_contigs.fasta
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/strain_graph.gfa
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/strain_graph.gfa
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/scaffolds.fasta
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/scaffolds.fasta
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/scaffolds.paths
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/scaffolds.paths
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/assembly_graph_with_scaffolds.gfa
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/assembly_graph_with_scaffolds.gfa
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/assembly_graph.fastg
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/assembly_graph.fastg
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/K127/final_contigs.paths
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_h_gkh0b2
+  job_uuid: SPAdes_Copy_files_WD929276CHSYK5BO2L7W81L1HEYVZGLI
+  mpi_support: false
+  output_files: []
+  path: /opt/conda/envs/Assembly/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_F3IEEPZ5GV8NW1GGXSR53ZJUOMYRF8CJ
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /opt/conda/envs/Assembly/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/scaffolds.fasta
+  - --misc_dir
+  - /workspaces/project_bioinformatic_01/project_s.pne/results/spades_output/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Breaking_scaffolds_ZCGVTMQH1XEWJ29FKGTFG8CZTWAS64EV
+  mpi_support: false
+  output_files: []
+  path: /opt/conda/envs/Assembly/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  job_uuid: SPAdes_Terminate_OAMACR7Y4JAASZI3NZZQ2HHBIH2Q93VY
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: terminate

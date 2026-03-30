@@ -1,0 +1,21 @@
+#                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_22_length_29277_cov_27.291355:4105-5151|+   -            349 469058at2            -            299  3.8e-124  410.6   0.1   1   1  9.3e-127  4.8e-124  410.3   0.1     8   299    25   347    18   347 0.92 NODE_22_length_29277_cov_27.291355_4 # 4105 # 5151 # 1 # ID=22_4;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=3-4bp;gc_cont=0.455
+NODE_28_length_24325_cov_28.229936:17698-19188|- -            497 469058at2            -            299   7.6e-05   18.9   0.1   1   3      0.99   5.1e+02   -3.5   0.2    31    77    20    64     9    77 0.61 NODE_28_length_24325_cov_28.229936_19 # 17698 # 19188 # -1 # ID=28_19;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.435
+NODE_28_length_24325_cov_28.229936:17698-19188|- -            497 469058at2            -            299   7.6e-05   18.9   0.1   2   3   1.5e-07   7.6e-05   18.9   0.1    92   188   182   275   139   328 0.80 NODE_28_length_24325_cov_28.229936_19 # 17698 # 19188 # -1 # ID=28_19;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.435
+NODE_28_length_24325_cov_28.229936:17698-19188|- -            497 469058at2            -            299   7.6e-05   18.9   0.1   3   3     0.022        11    1.9   0.1   268   288   469   489   466   491 0.90 NODE_28_length_24325_cov_28.229936_19 # 17698 # 19188 # -1 # ID=28_19;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.435
+NODE_24_length_27353_cov_40.659002:11015-12271|+ -            419 469058at2            -            299    0.0045   13.1   4.0   1   1   1.9e-05    0.0099   12.0   4.0     6    74    64   131    58   165 0.82 NODE_24_length_27353_cov_40.659002_15 # 11015 # 12271 # 1 # ID=24_15;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.453
+NODE_4_length_58780_cov_44.203042:27796-29085|+  -            430 469058at2            -            299      0.07    9.2   3.7   1   3     0.016       8.5    2.3   0.0   156   187   100   131    96   171 0.78 NODE_4_length_58780_cov_44.203042_25 # 27796 # 29085 # 1 # ID=4_25;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.466
+NODE_4_length_58780_cov_44.203042:27796-29085|+  -            430 469058at2            -            299      0.07    9.2   3.7   2   3    0.0022       1.2    5.2   0.1   262   278   299   315   293   322 0.84 NODE_4_length_58780_cov_44.203042_25 # 27796 # 29085 # 1 # ID=4_25;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.466
+NODE_4_length_58780_cov_44.203042:27796-29085|+  -            430 469058at2            -            299      0.07    9.2   3.7   3   3     0.054        28    0.7   0.1    74   107   389   426   335   429 0.54 NODE_4_length_58780_cov_44.203042_25 # 27796 # 29085 # 1 # ID=4_25;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.466
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/project_bioinformatic_01/project_s.pne/busco_downloads/lineages/bacteria_odb10/hmms/469058at2.hmm
+# Target file:     results/busco_results/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout results/busco_results/run_bacteria_odb10/hmmer_output/469058at2.out --cpu 1 /workspaces/project_bioinformatic_01/project_s.pne/busco_downloads/lineages/bacteria_odb10/hmms/469058at2.hmm results/busco_results/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/project_bioinformatic_01/project_s.pne
+# Date:            Mon Mar 30 07:39:47 2026
+# [ok]

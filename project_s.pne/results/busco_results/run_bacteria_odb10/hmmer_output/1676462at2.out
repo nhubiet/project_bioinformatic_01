@@ -1,0 +1,15 @@
+#                                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                   accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                           ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_47_length_14503_cov_75.816708:9506-10075|- -            190 1676462at2           -            123   6.7e-41  136.3   1.0   1   2   1.1e-15   2.2e-12   44.2   0.0     1    41     4    44     4    47 0.93 NODE_47_length_14503_cov_75.816708_9 # 9506 # 10075 # -1 # ID=47_9;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.333
+NODE_47_length_14503_cov_75.816708:9506-10075|- -            190 1676462at2           -            123   6.7e-41  136.3   1.0   2   2   3.6e-30   7.4e-27   90.9   0.2    28   105    53   140    46   157 0.87 NODE_47_length_14503_cov_75.816708_9 # 9506 # 10075 # -1 # ID=47_9;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.333
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/project_bioinformatic_01/project_s.pne/busco_downloads/lineages/bacteria_odb10/hmms/1676462at2.hmm
+# Target file:     results/busco_results/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout results/busco_results/run_bacteria_odb10/hmmer_output/1676462at2.out --cpu 1 /workspaces/project_bioinformatic_01/project_s.pne/busco_downloads/lineages/bacteria_odb10/hmms/1676462at2.hmm results/busco_results/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/project_bioinformatic_01/project_s.pne
+# Date:            Mon Mar 30 07:39:46 2026
+# [ok]
