@@ -1,0 +1,66 @@
+/opt/conda/envs/Assembly/bin/quast.py project_sta/results/spades_output/scaffolds.fasta -o project_sta/results/quast_results
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-6.8.0-1044-azure-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.12.13
+  CPUs number: 2
+
+Started: 2026-03-31 14:55:56
+
+Logging to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/quast.log
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /workspaces/project_bioinformatic_01
+Main parameters: 
+  MODE: default, threads: 1, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  project_sta/results/spades_output/scaffolds.fasta ==> scaffolds
+
+2026-03-31 14:56:06
+Running Basic statistics processor...
+  Contig files: 
+    scaffolds
+  Calculating N50 and L50...
+    scaffolds, N50 = 276630, L50 = 4, auN = 273416.0, Total length = 2762516, GC % = 32.68, # N's per 100 kbp =  18.10
+  Drawing Nx plot...
+    saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/basic_stats/GC_content_plot.pdf
+  Drawing scaffolds GC content plot...
+    saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/basic_stats/scaffolds_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 4x)...
+    saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/basic_stats/coverage_histogram.pdf
+  Drawing scaffolds coverage histogram (bin size: 4x)...
+    saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/basic_stats/scaffolds_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-03-31 14:56:09
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-03-31 14:56:09
+RESULTS:
+  Text versions of total report are saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/report.html
+  PDF version (tables and plots) is saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/report.pdf
+  Icarus (contig browser) is saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/icarus.html
+  Log is saved to /workspaces/project_bioinformatic_01/project_sta/results/quast_results/quast.log
+
+Finished: 2026-03-31 14:56:09
+Elapsed time: 0:00:13.321883
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

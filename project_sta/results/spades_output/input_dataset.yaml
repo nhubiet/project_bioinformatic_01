@@ -1,0 +1,7 @@
+- "left reads":
+  - "/workspaces/project_bioinformatic_01/project_sta/data/R1_sub.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/workspaces/project_bioinformatic_01/project_sta/data/R2_sub.fastq.gz"
+  "type": "paired-end"

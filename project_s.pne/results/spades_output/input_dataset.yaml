@@ -1,7 +1,0 @@
-- "left reads":
-  - "/workspaces/project_bioinformatic_01/project_s.pne/data/cleaned_R1.fastq.gz"
-  "number": !!int "1"
-  "orientation": "fr"
-  "right reads":
-  - "/workspaces/project_bioinformatic_01/project_s.pne/data/cleaned_R2.fastq.gz"
-  "type": "paired-end"

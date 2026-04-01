@@ -1,5 +1,4 @@
 #!/bin/bash
-# STEP 1: CHUẨN BỊ DỮ LIỆU (NCBI SRA)
 # Accession: DRR189357
 # Trong trường hợp không thể tải trực tiếp từ NCBI(do lỗi SSL hoặc giới hạn môi trường), dữ liệu được tải về từ máy cá nhân và upload lên hệ thống.
 # CÁCH UPLOAD DỮ LIỆU LÊN CODESPACES

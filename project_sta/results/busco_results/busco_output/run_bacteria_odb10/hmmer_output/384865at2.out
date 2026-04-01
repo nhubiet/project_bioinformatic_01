@@ -1,0 +1,16 @@
+#                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_5_length_256676_cov_32.527157:83701-84876|+ -            392 384865at2            -            217   5.9e-55  183.3  14.5   1   3     0.022        58    0.3   0.3     3    67     9    76     7    99 0.66 NODE_5_length_256676_cov_32.527157_71 # 83701 # 84876 # 1 # ID=5_71;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.356
+NODE_5_length_256676_cov_32.527157:83701-84876|+ -            392 384865at2            -            217   5.9e-55  183.3  14.5   2   3   5.5e-10   1.5e-06   25.1   0.5    30    75    97   146    65   168 0.77 NODE_5_length_256676_cov_32.527157_71 # 83701 # 84876 # 1 # ID=5_71;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.356
+NODE_5_length_256676_cov_32.527157:83701-84876|+ -            392 384865at2            -            217   5.9e-55  183.3  14.5   3   3   7.2e-52   1.9e-48  162.0   3.9    80   216   176   342   170   343 0.89 NODE_5_length_256676_cov_32.527157_71 # 83701 # 84876 # 1 # ID=5_71;partial=00;start_type=GTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.356
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/project_bioinformatic_01/busco_downloads/lineages/bacteria_odb10/hmms/384865at2.hmm
+# Target file:     /workspaces/project_bioinformatic_01/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /workspaces/project_bioinformatic_01/busco_output/run_bacteria_odb10/hmmer_output/384865at2.out --cpu 1 /workspaces/project_bioinformatic_01/busco_downloads/lineages/bacteria_odb10/hmms/384865at2.hmm /workspaces/project_bioinformatic_01/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/project_bioinformatic_01
+# Date:            Tue Mar 31 14:58:32 2026
+# [ok]

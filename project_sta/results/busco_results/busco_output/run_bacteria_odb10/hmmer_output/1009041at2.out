@@ -1,0 +1,15 @@
+#                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_15_length_23674_cov_33.971734:14110-15282|+ -            391 1009041at2           -            227   8.1e-76  251.6  20.2   1   2   5.1e-79   1.4e-75  250.9  16.4     2   211    13   267    12   275 0.88 NODE_15_length_23674_cov_33.971734_14 # 14110 # 15282 # 1 # ID=15_14;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.386
+NODE_15_length_23674_cov_33.971734:14110-15282|+ -            391 1009041at2           -            227   8.1e-76  251.6  20.2   2   2       0.1   2.8e+02   -2.0   0.1   218   227   306   315   274   315 0.73 NODE_15_length_23674_cov_33.971734_14 # 14110 # 15282 # 1 # ID=15_14;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.386
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/project_bioinformatic_01/busco_downloads/lineages/bacteria_odb10/hmms/1009041at2.hmm
+# Target file:     /workspaces/project_bioinformatic_01/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /workspaces/project_bioinformatic_01/busco_output/run_bacteria_odb10/hmmer_output/1009041at2.out --cpu 1 /workspaces/project_bioinformatic_01/busco_downloads/lineages/bacteria_odb10/hmms/1009041at2.hmm /workspaces/project_bioinformatic_01/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/project_bioinformatic_01
+# Date:            Tue Mar 31 14:58:29 2026
+# [ok]

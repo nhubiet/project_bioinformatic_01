@@ -1,0 +1,12 @@
+Database	Virulence factor	Identity	Query / Template length	Contig	Position in contig	Protein function	Accession number
+s.aureus_exoenzyme	aur	100.0	1530 / 1530	NODE_1_length_477897_cov_41.704631	349933..351462	aureolysin	AP014653.1
+s.aureus_exoenzyme	splA	96.74	705 / 705	NODE_13_length_47870_cov_34.307032	21466..22169	serine protease splA	CP003194.1
+s.aureus_exoenzyme	splA	96.74	705 / 708	NODE_13_length_47870_cov_34.307032	21466..22169	serine protease splA	CP003194.1
+s.aureus_exoenzyme	splB	99.31	723 / 723	NODE_13_length_47870_cov_34.307032	22294..23016	serine protease splB	BA000018.3
+s.aureus_hostimm	sak	99.8	492 / 492	NODE_9_length_101871_cov_38.044806	99459..99950	staphylokinase	BA000017.4
+s.aureus_hostimm	scn	100.0	351 / 351	NODE_9_length_101871_cov_38.044806	101447..101797	staphylococcal complement inhibitor	LC032460.1
+s.aureus_toxin	hlgA	99.78	930 / 930	NODE_1_length_477897_cov_41.704631	107674..108603	gamma-hemolysin chain II precursor	CP011528.1
+s.aureus_toxin	hlgB	100.0	977 / 977	NODE_1_length_477897_cov_41.704631	110120..111096	gamma-hemolysin component B precursor	BA000033.2
+s.aureus_toxin	hlgC	100.0	948 / 948	NODE_1_length_477897_cov_41.704631	109171..110118	gamma-hemolysin component C	AP014653.1
+s.aureus_toxin	lukD	99.7	984 / 984	NODE_13_length_47870_cov_34.307032	16341..17324	leukocidin D component	AP014942.1
+s.aureus_toxin	lukE	100.0	936 / 936	NODE_13_length_47870_cov_34.307032	15404..16339	leukocidin E component	AP014653.1
