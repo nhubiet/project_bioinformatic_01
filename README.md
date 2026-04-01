@@ -74,9 +74,22 @@ conda activate env_virulence
 conda list virulencefinder
 virulencefinder.py -h
 ```
+### Tạo môi trường mới với Python 3.8
+```conda create -n env_abricate python=3.8 -y```
+### Kích hoạt
+``` conda activate env_abricate ```
+### Cài đặt Abricate từ kênh Bioconda
+``` conda install -c bioconda -c conda-forge abricate -y ```
 ## Save
 ```
 git add README.md
 git commit -m "Complete installation and storage management guide"
 git push origin main
 ```
+# Project_s.pne
+[scripts](project_s.pne/scripts)
+[results](project_s.pne/results)
+
+# Project_staphylococcus
+[script](project_sta/scpripts)
+[results](project_sta/results)
